@@ -66,7 +66,9 @@
           <h1 class="service-title">
             efektywne rozwiązania dla waszego biznesu
           </h1>
-          <button type="button" class="service-button">Zamów usługe</button>
+          <button type="button" class="service-button" data-modal-open>
+            Zamów usługę
+          </button>
         </div>
       </section>
 
@@ -516,6 +518,16 @@
         </ul>
       </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>
+          <svg class="close-btn-icon" data-modal-close>
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
 
     <script src="./js/modal.js"></script>
   </body>
