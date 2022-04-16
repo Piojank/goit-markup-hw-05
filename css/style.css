@@ -543,11 +543,11 @@ footer .container {
     height: 20px;
 }
 
-
 .footer-social-list-link:hover,
 .footer-social-list-link:focus {
     background-color: var(--blue);
 }
+
 
 /* <!-- END footer markup--> */
 
