@@ -686,6 +686,8 @@ footer .container {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
+
+    transition: all 0.25s ease-in-out;
 }
 
 .modal {
@@ -702,7 +704,7 @@ footer .container {
     border-radius: 4px;
     padding: 40px;
 
-    
+    transition: all 0.5s ease-in-out;
 }
 
 .close-btn {
@@ -717,11 +719,11 @@ footer .container {
     cursor: pointer;
 }
 
+
 .is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    
 }
 
 
