@@ -691,29 +691,22 @@ footer .container {
 }
 
 .close-btn {
-    display: flex;
     position: absolute;
-    align-items: center;
-    justify-content: center;
     top: 8px;
     right: 8px;
     width: 30px;
     height: 30px;
-    background-color: transparent;
-    border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: transparent;
     cursor: pointer;
-}
-
-.close-btn-icon {
-    fill:var(--black);
 }
 
 .is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+    
 }
 
 
